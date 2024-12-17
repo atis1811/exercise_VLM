@@ -18,9 +18,9 @@ def extract_frames(video_path, output_folder, frame_rate=1):
     cap.release()
 extract_frames("C:/Users/atish/OneDrive/Desktop/VLM/Images/push ups.mp4", "C:/Users/atish/OneDrive/Desktop/VLM/frames output", frame_rate=30)
 # NVIDIA Kosmos-2 Inference API endpoint
-api_key = "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"
+api_key = " Replace with your API key"
 KOSMOS_API_URL = "https://ai.api.nvidia.com/v1/vlm/microsoft/kosmos-2" # https://ai.api.nvidia.com/v1/vlm/microsoft/kosmos-2
-API_KEY = api_key  # Replace with your API key
+API_KEY = api_key  
 
 # Define exercise types
 exercise_types = ["squats", "push-ups", "pull-ups", "lunges", "jumping jacks"]
